@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .video-container {
+            position: relative;
+            width: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
+        .box-125 {
+            width: 1600px;
+            height: 1300px;
+            padding-top: 56.25%;
+            position: absolute;
+            background-color: transparent;
+            margin-top: -240px;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ajwu_1Qh5Sw?autoplay=1&loop=1&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+        <div class="box-125">
+            <!-- Content for the box-125 goes here -->
+        </div>
+    </div>
+</body>
+</html>
